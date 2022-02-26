@@ -4,7 +4,7 @@ Desafio 3 da primeira turma da trilha frontend da Dev Pro
 
 ## Bem-vindo
 
-Este é o terceiro desafio, onde todas as informações, discuções e tarefas (Issues = próximas atividades) vão estar centralizadas aqui.
+Este é o terceiro desafio, onde todas as informações, discussões e tarefas (Issues = próximas atividades) vão estar centralizadas aqui.
 
 👉 Se você ainda não faz parte deste projeto, comece criando uma conta no GitHub e adicionando seu username [aqui](https://github.com/huogerac/todolist-turma1/issues/1)
 
@@ -15,6 +15,7 @@ Este é o terceiro desafio, onde todas as informações, discuções e tarefas (
 - Entender sobre feedback para gerar + valor
 - Entender 'the right thing' vs 'do things right'
 - Adicionar um TODO LIST ao portfólio
+- Fazer um software ou site não envolve APENAS CÓDIGO!
 
 ## Objectivos Macros (Marcos do Projeto / Milestones) para o Produto
 
