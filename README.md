@@ -25,9 +25,16 @@ Este é o terceiro desafio, onde todas as informações, discussões e tarefas (
   - [ ] Glossário do produto (Glossary) [Ver tarefa #3](https://github.com/huogerac/todolist-turma1/issues/3)
   - [ ] Funcionalidades desejadas (Features) [Ver tarefa #4](https://github.com/huogerac/todolist-turma1/issues/4)
 
-- [Parte 1 - Primeiras funcionalidades (MVP)](https://github.com/huogerac/todolist-turma1/milestone/1)
+- [Parte 1 - Primeiras funcionalidades (MVP)](https://github.com/huogerac/todolist-turma1/milestone/2)
 
   - [ ] Qual será a primeira funcionalidade que vamos trabalhar [Tarefa #5](https://github.com/huogerac/todolist-turma1/issues/5)
   - [ ] Protótipo & Conteúdo (Wireframes) [Tarefa #6](https://github.com/huogerac/todolist-turma1/issues/6)
   - [ ] Mapa de navegação [Tarefa #7](https://github.com/huogerac/todolist-turma1/issues/7)
   - [ ] Ciclo de feedback
+
+- [Parte 2 - Fundação](https://github.com/huogerac/todolist-turma1/milestone/3)
+
+  - [ ] 🥇 Premissas [Tarefa #8](https://github.com/huogerac/todolist-turma1/issues/8)
+  - [ ] 🤖 Definir Linter [Tarefa #9](https://github.com/huogerac/todolist-turma1/issues/9)
+  - [ ] 🧩 Definir Framework CSS [Tarefa #10](https://github.com/huogerac/todolist-turma1/issues/10)
+  - [ ] 📦 Estrutura de pastas [Tarefa #11](https://github.com/huogerac/todolist-turma1/issues/11)
