@@ -12,6 +12,7 @@ Este é o terceiro desafio, onde todas as informações, discussões e tarefas (
 
 - Utilizar práticas do mercado para gerenciar a criação de um produto de software
 - Trabalhar de forma colaborativa
+- Ter o hábito de compartilhar as ideias com o máximo de pessoas, tentar extrair disto o que elas acham da ideia e quais os pontos de falha que não estamos enxergando
 - Entender sobre feedback para gerar + valor
 - Entender 'the right thing' vs 'do things right'
 - Adicionar um TODO LIST ao portfólio
