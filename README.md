@@ -39,3 +39,10 @@ Este é o terceiro desafio, onde todas as informações, discussões e tarefas (
   - [ ] 🤖 Definir Linter [Tarefa #9](https://github.com/huogerac/todolist-turma1/issues/9)
   - [ ] 🧩 Definir Framework CSS [Tarefa #10](https://github.com/huogerac/todolist-turma1/issues/10)
   - [ ] 📦 Estrutura de pastas [Tarefa #11](https://github.com/huogerac/todolist-turma1/issues/11)
+
+- Parte 3
+
+  - [ ] Criar página inicial
+  - [ ] Publicar
+  - [ ] Criar navegação entre páginas
+  - [ ] Criar primeira funcionalidade principal
