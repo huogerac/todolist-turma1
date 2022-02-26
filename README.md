@@ -1,6 +1,6 @@
 # Todo List - turma1 ✅
 
-Desafio 3 da primeira turba da trilha frontend da Dev Pro
+Desafio 3 da primeira turma da trilha frontend da Dev Pro
 
 ## Bem-vindo
 
@@ -18,13 +18,13 @@ Este é o terceiro desafio, onde todas as informações, discuções e tarefas (
 
 ## Objectivos Macros (Marcos do Projeto / Milestones) para o Produto
 
-- Parte 0 - Visão geral de produto
+- [Parte 0 - Visão geral de produto](https://github.com/huogerac/todolist-turma1/milestone/1)
 
   - [ ] Roubar como um artista (Inspirado em) [Ver tarefa #2](https://github.com/huogerac/todolist-turma1/issues/2)
   - [ ] Glossário do produto (Glossary) [Ver tarefa #3](https://github.com/huogerac/todolist-turma1/issues/3)
   - [ ] Funcionalidades desejadas (Features) [Ver tarefa #4](https://github.com/huogerac/todolist-turma1/issues/4)
 
-- Parte 1 - Primeiras funcionalidades (MVP)
+- [Parte 1 - Primeiras funcionalidades (MVP)](https://github.com/huogerac/todolist-turma1/milestone/1)
 
   - [ ] Qual será a primeira funcionalidade que vamos trabalhar [Tarefa #5](https://github.com/huogerac/todolist-turma1/issues/5)
   - [ ] Protótipo & Conteúdo (Wireframes) [Tarefa #6](https://github.com/huogerac/todolist-turma1/issues/6)
