@@ -42,7 +42,11 @@ Este é o terceiro desafio, onde todas as informações, discussões e tarefas (
 
 - Parte 3
 
-  - [ ] Criar página inicial
-  - [ ] Publicar
-  - [ ] Criar navegação entre páginas
-  - [ ] Criar primeira funcionalidade principal
+  - [ ] 🎯 Criar página inicial
+  - [ ] 🚀 Publicar
+  - [ ] 🖱 Criar navegação entre páginas
+  - [ ] 🏆 Criar primeira funcionalidade principal
+
+## Kanban
+
+Versão [Kanban para gerenciar próximas tarefas](https://github.com/huogerac/todolist-turma1/projects/1)
