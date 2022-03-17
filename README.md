@@ -22,13 +22,13 @@ Este é o terceiro desafio, onde todas as informações, discussões e tarefas (
 
 - [Parte 0 - Visão geral de produto](https://github.com/huogerac/todolist-turma1/milestone/1)
 
-  - [ ] Roubar como um artista (Inspirado em) [Ver tarefa #2](https://github.com/huogerac/todolist-turma1/issues/2)
-  - [ ] Glossário do produto (Glossary) [Ver tarefa #3](https://github.com/huogerac/todolist-turma1/issues/3)
-  - [ ] Funcionalidades desejadas (Features) [Ver tarefa #4](https://github.com/huogerac/todolist-turma1/issues/4)
+  - [x] Roubar como um artista (Inspirado em) [Ver tarefa #2](https://github.com/huogerac/todolist-turma1/issues/2)
+  - [x] Glossário do produto (Glossary) [Ver tarefa #3](https://github.com/huogerac/todolist-turma1/issues/3)
+  - [x] Funcionalidades desejadas (Features) [Ver tarefa #4](https://github.com/huogerac/todolist-turma1/issues/4)
 
 - [Parte 1 - Primeiras funcionalidades (MVP)](https://github.com/huogerac/todolist-turma1/milestone/2)
 
-  - [ ] Qual será a primeira funcionalidade que vamos trabalhar [Tarefa #5](https://github.com/huogerac/todolist-turma1/issues/5)
+  - [x] Qual será a primeira funcionalidade que vamos trabalhar [Tarefa #5](https://github.com/huogerac/todolist-turma1/issues/5)
   - [ ] Protótipo & Conteúdo (Wireframes) [Tarefa #6](https://github.com/huogerac/todolist-turma1/issues/6)
   - [ ] Mapa de navegação [Tarefa #7](https://github.com/huogerac/todolist-turma1/issues/7)
   - [ ] Ciclo de feedback
