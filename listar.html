@@ -103,22 +103,36 @@
           <tr>
             <td><input class="form-check-input" type="checkbox" value="" id="1" /></td>
             <td>Estudar CSS</td>
-            <td><span class="badge bg-secondary">Estudos</span></td>
+            <td class="text-end"><span class="badge bg-secondary">Estudos</span></td>
             <td>...</td>
           </tr>
           <tr></tr>
           <tr>
             <td><input class="form-check-input" type="checkbox" value="" id="1" /></td>
             <td>Estudar Flexbox</td>
-            <td><span class="badge bg-secondary">Estudos</span></td>
+            <td class="text-end"><span class="badge bg-secondary text-end">Estudos</span></td>
             <td>...</td>
           </tr>
           <tr></tr>
           <tr>
             <td><input class="form-check-input" type="checkbox" value="" id="1" /></td>
             <td>Dentista</td>
-            <td><span class="badge bg-secondary">Saúde</span></td>
-            <td>...</td>
+            <td class="text-end"><span class="badge bg-secondary">Saúde</span></td>
+            <td>
+              <div class="btn-group btn-group-sm" role="group">
+                <button
+                  id="btnGroupDrop1"
+                  type="button"
+                  class="btn dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                ></button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <li><a class="dropdown-item" href="#">Editar</a></li>
+                  <li><a class="dropdown-item" href="#">Remover</a></li>
+                </ul>
+              </div>
+            </td>
           </tr>
         </tbody>
       </table>
