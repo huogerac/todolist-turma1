@@ -15,63 +15,114 @@
     <title>Document</title>
   </head>
   <body>
+    <!--
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler d-inline-block"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <form class="d-flex">
+            <input
+              class="form-control form-control-sm"
+              type="search"
+              placeholder="Buscar tarefa..."
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success btn-sm" type="submit">Buscar</button>
+          </form>
+          <img
+            src="https://i.pinimg.com/originals/7d/3e/a8/7d3ea8bd75ccc8b1bc55e6ff7249ae5c.jpg"
+            width="40"
+            height="40"
+            class="rounded-circle d-inline-block"
+          />
+          
+        </div>
+      </nav>
+    -->
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <button
-          class="navbar-toggler d-inline-block"
+          class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <form class="d-flex">
-          <input class="form-control form-control-sm" type="search" placeholder="Buscar tarefa..." aria-label="Search" />
-          <button class="btn btn-outline-success btn-sm" type="submit">Buscar</button>
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
         </form>
-        <img src="https://i.pinimg.com/originals/7d/3e/a8/7d3ea8bd75ccc8b1bc55e6ff7249ae5c.jpg" width="40" height="40" class="rounded-circle d-inline-block">
-        <!--<div class="collapse navbar-collapse" id="navbarSupportedContent"></div>-->
+        <img
+          src="https://i.pinimg.com/originals/7d/3e/a8/7d3ea8bd75ccc8b1bc55e6ff7249ae5c.jpg"
+          width="40"
+          height="40"
+          class="rounded-circle d-inline-block"
+        />
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/"> Sair </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      
     </nav>
-    <div class="btn-group btn-group-sm" role="group" aria-label="Basic radio toggle button group">
-      <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked />
-      <label class="btn btn-outline-primary" for="btnradio1">Hoje</label>
 
-      <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" />
-      <label class="btn btn-outline-primary" for="btnradio2">Semana</label>
+    <div class="container">
+      <div class="btn-group btn-group-sm my-2" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked />
+        <label class="btn btn-outline-primary" for="btnradio1">Hoje</label>
 
-      <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" />
-      <label class="btn btn-outline-primary" for="btnradio3">Mês</label>
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" />
+        <label class="btn btn-outline-primary" for="btnradio2">Semana</label>
+
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" />
+        <label class="btn btn-outline-primary" for="btnradio3">Mês</label>
+      </div>
+
+      <table class="table">
+        <tbody>
+          <tr>
+            <td><input class="form-check-input" type="checkbox" value="" id="1" /></td>
+            <td>Estudar CSS</td>
+            <td><span class="badge bg-secondary">Estudos</span></td>
+            <td>...</td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td><input class="form-check-input" type="checkbox" value="" id="1" /></td>
+            <td>Estudar Flexbox</td>
+            <td><span class="badge bg-secondary">Estudos</span></td>
+            <td>...</td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td><input class="form-check-input" type="checkbox" value="" id="1" /></td>
+            <td>Dentista</td>
+            <td><span class="badge bg-secondary">Saúde</span></td>
+            <td>...</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-
-    <table class="table">
-      <tbody>
-        <tr>
-          <td><input class="form-check-input" type="checkbox" value="" id="1" /></td>
-          <td>Estudar CSS</td>
-          <td><span class="badge bg-secondary">Estudos</span></td>
-          <td>...</td>
-        </tr>
-        <tr></tr>
-        <tr>
-          <td><input class="form-check-input" type="checkbox" value="" id="1" /></td>
-          <td>Estudar Flexbox</td>
-          <td><span class="badge bg-secondary">Estudos</span></td>
-          <td>...</td>
-        </tr>
-        <tr></tr>
-        <tr>
-          <td><input class="form-check-input" type="checkbox" value="" id="1" /></td>
-          <td>Dentista</td>
-          <td><span class="badge bg-secondary">Saúde</span></td>
-          <td>...</td>
-        </tr>
-      </tbody>
-    </table>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
