@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+.h-50vh {
+  height: 50vh;
+}
+
+.centered-text {
+  text-align: center;
+  padding: 180px 0;
+}
+
+.super-title {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #2a283c;
+}
+
+.sub-title {
+  font-size: 2rem;
+  color: #a4a7ac;
+}
+
+.bg-dark1 {
+  background-color: #2a283c;
+}
