@@ -11,12 +11,12 @@
 .button-add {
   text-align: center;
   position: relative;
-  bottom: -450px;
+  bottom: -350px;
 }
 
 .btn-button-add {
-  width: 80px;
-  height: 80px;
-  line-height: 40px;
-  font-size: 59px;
+  width: 70px;
+  height: 70px;
+  line-height: 10px;
+  font-size: 54px;
 }
