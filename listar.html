@@ -11,9 +11,11 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/buttons.css" />
+    <link rel="stylesheet" href="css/style-listar.css" />
 
-    <title>Document</title>
+    <title>Todo List - Listar</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -29,82 +31,126 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <input class="form-control" type="search" placeholder="Buscar" aria-label="Search" />
         </form>
-        <img
-          src="https://i.pinimg.com/originals/7d/3e/a8/7d3ea8bd75ccc8b1bc55e6ff7249ae5c.jpg"
-          width="40"
-          height="40"
-          class="rounded-circle d-inline-block"
-        />
+        <img src="./img/profile-icon.jpg" width="40" height="40" class="rounded-circle d-inline-block" />
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/">Início</a>
+              <a class="nav-link active" aria-current="page" href="#">Início</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/"> Sair </a>
+              <a class="nav-link" href="#">Grupos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Sair</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="container">
-      <div class="btn-group btn-group-sm my-2" role="group" aria-label="Basic radio toggle button group">
-        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked />
-        <label class="btn btn-outline-primary" for="btnradio1">Hoje</label>
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">Hoje</a></li>
+        <li class="page-item"><a class="page-link" href="#">Semana</a></li>
+        <li class="page-item"><a class="page-link" href="#">Mês</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <table class="table">
+      <tbody>
+        <tr>
+          <td>
+            <input class="form-check-input" type="checkbox" value="" id="1" />
+          </td>
+          <td>Estudar CSS</td>
+          <td><span class="badge bg-secondary">Estudos</span></td>
+          <td>
+            <div class="dropdown">
+              <a
+                class="btn btn-light btn-sm dropdown-toggle"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              </a>
 
-        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" />
-        <label class="btn btn-outline-primary" for="btnradio2">Semana</label>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Editar</a></li>
+                <li><a class="dropdown-item" href="#">Excluir</a></li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+        <tr></tr>
+        <tr>
+          <td>
+            <input class="form-check-input" type="checkbox" value="" id="1" />
+          </td>
+          <td>Estudar Flexbox</td>
+          <td><span class="badge bg-secondary">Estudos</span></td>
+          <td>
+            <div class="dropdown">
+              <a
+                class="btn btn-light btn-sm dropdown-toggle"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              </a>
 
-        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" />
-        <label class="btn btn-outline-primary" for="btnradio3">Mês</label>
-      </div>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Editar</a></li>
+                <li><a class="dropdown-item" href="#">Excluir</a></li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+        <tr></tr>
+        <tr>
+          <td>
+            <input class="form-check-input" type="checkbox" value="" id="1" />
+          </td>
+          <td>Dentista</td>
+          <td><span class="badge bg-secondary">Saúde</span></td>
+          <td>
+            <div class="dropdown">
+              <a
+                class="btn btn-light btn-sm dropdown-toggle"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              </a>
 
-      <table class="table">
-        <tbody>
-          <tr>
-            <td><input class="form-check-input" type="checkbox" value="" id="1" /></td>
-            <td>Estudar CSS</td>
-            <td class="text-end"><span class="badge bg-secondary">Estudos</span></td>
-            <td>...</td>
-          </tr>
-          <tr></tr>
-          <tr>
-            <td><input class="form-check-input" type="checkbox" value="" id="1" /></td>
-            <td>Estudar Flexbox</td>
-            <td class="text-end"><span class="badge bg-secondary text-end">Estudos</span></td>
-            <td>...</td>
-          </tr>
-          <tr></tr>
-          <tr>
-            <td><input class="form-check-input" type="checkbox" value="" id="1" /></td>
-            <td>Dentista</td>
-            <td class="text-end"><span class="badge bg-secondary">Saúde</span></td>
-            <td>
-              <div class="btn-group btn-group-sm" role="group">
-                <button
-                  id="btnGroupDrop1"
-                  type="button"
-                  class="btn dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                ></button>
-                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                  <li><a class="dropdown-item" href="#">Editar</a></li>
-                  <li><a class="dropdown-item" href="#">Remover</a></li>
-                </ul>
-              </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <p>
-        <a class="btn btn-warning btn-lg btn-rounded position-absolute bottom-0 end-50 mb-3" href="adiocionar.html">+</a>
-      </p>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Editar</a></li>
+                <li><a class="dropdown-item" href="#">Excluir</a></li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="button-add text-center">
+      <button type="button" class="btn btn-primary btn-button-add rounded-circle">+</button>
     </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

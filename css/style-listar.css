@@ -1,0 +1,22 @@
+.form-control {
+  padding: 6px;
+  width: 250px;
+}
+
+.pagination {
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.button-add {
+  text-align: center;
+  position: relative;
+  bottom: -450px;
+}
+
+.btn-button-add {
+  width: 80px;
+  height: 80px;
+  line-height: 40px;
+  font-size: 59px;
+}
